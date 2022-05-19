@@ -1,0 +1,10 @@
+description=Simple Table Wizard from CRM Together
+requires=expansion
+directory=simplewizard
+multipleinstalls=y
+errorhandling=strict
+NeedsExpansion=Y
+Version=2021R1
+
+params:
+text Name=Table Name,required=true,maxlength=22
