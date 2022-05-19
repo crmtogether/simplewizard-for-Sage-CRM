@@ -1,6 +1,6 @@
 <!-- #include file ="crmwizard.js" -->
 <%
-var _Table = "**&TableName&**";
+var _Table = "nwcustomersxy";
 var _screenName=_Table+"Screen";
 
 var qscreenobject=CRM.CreateQueryObj("select * from Custom_ScreenObjects where CObj_Name='"+_screenName+"'");
@@ -81,7 +81,7 @@ if (UseId != 0) {
 
   var Idarr = Id.split(",");
 
-  record = CRM.FindRecord(_Table, _idfield+"="+UseId);
+  record = CRM.FindRecord(_Table, _idfield+"='"+UseId+"'");
 
   Container.DisplayButton(Button_Continue) = true;
 	
