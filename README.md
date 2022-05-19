@@ -11,8 +11,9 @@ Install the src/simplewizard.zip file into Sage CRM using the component manager.
 
 Run the wizard then and put in the table you want to expose. In CRM you see a new tab on "My CRM" and you can click into each record and view a summary screen. 
 
-In our demo video below we are showing how you would use this with Data Islands https://crmtogether.com/products/dataislands/
+In our demo video below we are showing how you would use this with Data Islands https://crmtogether.com/data-islands/
 
 
-Video available via our vimeo channel at https://vimeo.com/402992173
+Video available via our vimeo channel at https://vimeo.com/711684085
+
 
