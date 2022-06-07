@@ -1,6 +1,6 @@
 <!-- #include file ="crmwizard.js" -->
 <%
-var _Table = "nwcustomersxy";
+var _Table = "**&TableName&**";
 var _screenName=_Table+"Screen";
 
 var qscreenobject=CRM.CreateQueryObj("select * from Custom_ScreenObjects where CObj_Name='"+_screenName+"'");
